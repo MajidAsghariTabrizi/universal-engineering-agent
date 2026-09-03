@@ -1,0 +1,21 @@
+{
+  "id": "mission-fix-failing-test",
+  "objective": "Identify and fix the intentional bug in the sample workspace so that `node --test test/` passes",
+  "acceptance": [
+    "All tests pass with exit code 0",
+    "No test file was deleted",
+    "The fix is in src/index.mjs, not in the test file"
+  ],
+  "known": [
+    "The workspace has a test/ directory with failing tests",
+    "The failure is in src/index.mjs, not in the test"
+  ],
+  "unknown": [
+    "Which function is misbehaving",
+    "Whether the fix changes the public API"
+  ],
+  "budgets": {
+    "tokenCeiling": 4000,
+    "fileCount": 8
+  }
+}

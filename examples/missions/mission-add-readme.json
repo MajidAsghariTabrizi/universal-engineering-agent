@@ -1,0 +1,15 @@
+{
+  "id": "mission-add-readme",
+  "objective": "Add a README.md to the sample workspace that explains what it is and how to run it",
+  "acceptance": [
+    "The file README.md exists in the workspace root",
+    "The README is at least 100 bytes long",
+    "The README contains the phrase 'sample-workspace'"
+  ],
+  "known": ["The workspace exists and contains a hello.txt and a package.json"],
+  "unknown": ["Whether a README already exists"],
+  "budgets": {
+    "tokenCeiling": 2000,
+    "fileCount": 8
+  }
+}

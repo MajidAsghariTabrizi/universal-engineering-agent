@@ -1,0 +1,68 @@
+# examples/profiles/generic.yml
+# Reference profile for the UEA kit. This is a profile-agnostic default
+# that uses no project-specific terminology.
+
+id: generic
+name: Generic Engineering Agent
+description: >
+  Conservative, profile-agnostic default for the Universal Engineering Agent.
+  No production assumptions, no deployment authority.
+
+capabilities:
+  - inspect
+  - plan
+  - implement
+  - verify
+  - classify
+  - recover
+
+constraints:
+  - No production mutations without explicit owner approval.
+  - No silent architecture changes for marketing or publishing.
+  - Every claim must be verified against source before publication.
+
+safety_policy:
+  riskTier: local_only
+  failClosed: true
+  retry:
+    routine: 2
+    normal: 3
+    critical: 4
+  ownerApproval: false
+  ownerAckToken: OWNER
+
+verification_policy:
+  stages:
+    - static
+    - unit
+    - integration
+  timeoutMinutes: 10
+  classify: true
+  defaults:
+    static: node --check src/index.mjs
+    unit: node --test test/
+    integration: node examples/sample-workspace/smoke.mjs
+
+deployment_policy:
+  enabled: false
+
+context_providers:
+  - git
+  - filesystem
+  - documentation
+  - runtime
+
+mission_defaults:
+  maxGoalRounds: 30
+  tokenBudget: 500000
+  modelCallBudget: 100
+  elapsedBudgetMinutes: 60
+  riskTier: local_only
+
+budgets:
+  graphDepth: 2
+  graphNodes: 16
+  fileCount: 8
+  tokenCeiling: 4000
+  gitHistoryDepth: 5
+  toolOutputChars: 8000

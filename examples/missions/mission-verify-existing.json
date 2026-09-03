@@ -1,0 +1,15 @@
+{
+  "id": "mission-verify-existing",
+  "objective": "Run the full staged verification pipeline against the sample workspace and report the results",
+  "acceptance": [
+    "All three stages (static, unit, integration) have a status",
+    "The overall result is 'ok' or 'fail', never null",
+    "Each stage has a durationMs value"
+  ],
+  "known": ["The sample workspace has src/index.mjs, test/index.test.mjs, and smoke.mjs"],
+  "unknown": ["Whether all three stages will pass in the current environment"],
+  "budgets": {
+    "tokenCeiling": 1000,
+    "fileCount": 8
+  }
+}

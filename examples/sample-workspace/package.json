@@ -1,0 +1,14 @@
+{
+  "name": "sample-workspace",
+  "version": "0.0.1",
+  "private": true,
+  "description": "A tiny workspace that the example missions operate on.",
+  "type": "module",
+  "uea": {
+    "verification": [
+      { "name": "static", "command": ["node", "--check", "src/index.mjs"], "optional": false },
+      { "name": "unit", "command": ["node", "--test", "test/*.test.mjs"], "optional": false },
+      { "name": "integration", "command": ["node", "smoke.mjs"], "optional": false }
+    ]
+  }
+}

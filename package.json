@@ -1,0 +1,46 @@
+{
+  "name": "universal-engineering-agent-kit",
+  "version": "0.1.0",
+  "description": "Reference implementation of the Universal Engineering Agent (UEA) operating-kernel contract. Profile-agnostic, runnable standalone or alongside the DeepSeek Harness dsh-universal-harness-core plugin.",
+  "type": "module",
+  "main": "src/kernel.mjs",
+  "bin": {
+    "uea": "bin/uea.mjs"
+  },
+  "files": [
+    "src/",
+    "bin/",
+    "docs/",
+    "examples/",
+    "scripts/",
+    "LICENSE",
+    "README.md",
+    "SECURITY.md",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "node --test test/*.test.mjs",
+    "scan": "node scripts/pre-publish-scan.mjs",
+    "demo:inspect": "node bin/uea.mjs inspect examples/sample-workspace",
+    "demo:plan": "node bin/uea.mjs plan examples/missions/mission-add-readme.json",
+    "demo:verify": "node bin/uea.mjs verify examples/sample-workspace"
+  },
+  "keywords": [
+    "engineering-agent",
+    "universal-engineering-agent",
+    "deepseek-harness",
+    "dsh",
+    "verification",
+    "context-engine",
+    "profile-driven",
+    "mission",
+    "checkpoint",
+    "failure-classification",
+    "operating-kernel"
+  ],
+  "engines": {
+    "node": ">=18.17"
+  },
+  "author": "Majid Asghari Tabrizi",
+  "license": "MIT"
+}
