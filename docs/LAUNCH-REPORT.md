@@ -86,6 +86,7 @@ All drafts are in `docs/DRAFTS.md` in the UEA repo. The agent cannot post to the
 |---|------|-------|-----|
 | 1 | yjh051108/dsh-routing-suite | #90: Graded verification pipeline via UEA 9-stage kernel | https://github.com/yjh051108/dsh-routing-suite/issues/90 |
 | 2 | zibo2025/dsh-orchestrator | #1: UEA profile-driven safety policy for multi-agent orchestration | https://github.com/zibo2025/dsh-orchestrator/issues/1 |
+| 3 | KochC/opencode-llm-proxy | #93: Passthrough mode for structured tool-call payloads | https://github.com/KochC/opencode-llm-proxy/issues/93 |
 
 ---
 
