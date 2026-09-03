@@ -25,6 +25,10 @@ without becoming a maintenance liability:
 7. **Test** the agent's own code, not just the user's.
 8. **Generalize** the lessons into a profile-agnostic checkpoint.
 
+The 9-stage form is the full contract: the `test` stage above tests the
+*agent's* code, the `verify` stage tests the *user's* code. The kit ships
+31 self-tests for stage 7 and a staged runner for stage 4.
+
 The UEA is **not a model**, **not an agent framework**, and **not a vendor
 product**. It is the smallest possible reusable shell that an LLM-driven
 engineering agent can sit inside and still be production-safe.
