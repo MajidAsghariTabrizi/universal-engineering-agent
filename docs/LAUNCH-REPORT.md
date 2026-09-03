@@ -36,6 +36,7 @@ Every reply was written specifically for the discussion it answered. No identica
 |---|-----------|-------|-----------|-----|
 | 1 | #365 | Guard Failure-Mode Detection Plugin | UEA's classify + verify = their detectors | https://github.com/deepseek-ai/deepseek-harness/discussions/365#discussioncomment-18264888 |
 | 2 | #1790 | Verification-first plugin suite | UEA staged verification = their operating kernel | https://github.com/deepseek-ai/deepseek-harness/discussions/1790#discussioncomment-18264892 |
+
 | 3 | #1884 | AI-written plugin risks | UEA's explicit operating kernel as the answer | https://github.com/deepseek-ai/deepseek-harness/discussions/1884#discussioncomment-18264835 |
 | 4 | #2031 | Ecosystem survey | UEA fills the engineering-workflow gap | https://github.com/deepseek-ai/deepseek-harness/discussions/2031#discussioncomment-18264837 |
 | 5 | #2909 | dsh-mission runtime | UEA mission tools map 1:1 to their pipeline | https://github.com/deepseek-ai/deepseek-harness/discussions/2909#discussioncomment-18264889 |
@@ -76,6 +77,15 @@ All drafts are in `docs/DRAFTS.md` in the UEA repo. The agent cannot post to the
 | 2 | **LinkedIn** | Technical founder-builder post: "What I learned building an engineering-agent operating kernel" | 📝 Ready for manual posting |
 | 3 | **Reddit** | r/LocalLLaMA: "I built an open-source engineering-agent kernel for repository work" | 📝 Ready for manual posting |
 | 4 | **Hacker News** | "Show HN: Universal Engineering Agent – an open engineering-agent operating kernel" | 📝 Ready for manual posting (post after DSH + GitHub are confirmed live) |
+
+---
+
+## Peer-Repo Composition Issues
+
+| # | Repo | Issue | URL |
+|---|------|-------|-----|
+| 1 | yjh051108/dsh-routing-suite | #90: Graded verification pipeline via UEA 9-stage kernel | https://github.com/yjh051108/dsh-routing-suite/issues/90 |
+| 2 | zibo2025/dsh-orchestrator | #1: UEA profile-driven safety policy for multi-agent orchestration | https://github.com/zibo2025/dsh-orchestrator/issues/1 |
 
 ---
 
