@@ -89,7 +89,38 @@ All drafts are in `docs/DRAFTS.md` in the UEA repo. The agent cannot post to the
 
 ---
 
-## High-Value Opportunities Identified
+## Awesome-List Targets (20 identified)
+
+### Phase 1 — Done (DSH ecosystem)
+
+| Repo | Stars | PR | Status |
+|------|-------|-----|--------|
+| Anil-matcha/awesome-dsh-plugin | 995 | #126 | ✅ Open |
+| Dominic789654/awesome-deepseek-harness | 219 | #386 | ✅ Open |
+
+### Phase 2 — Next wave (coding agent lists, within 1 week)
+
+| Repo | Stars | Section | UEA Fit |
+|------|-------|---------|---------|
+| bradAGI/awesome-cli-coding-agents | 1,144 | Agent infrastructure | **BEST FIT** — terminal-native coding agent infra |
+| kaushikb11/awesome-llm-agents | 1,573 | Agent Infrastructure | Unique profile-driven angle |
+| deepseek-ai/awesome-deepseek-agent | 6,035 | Agent infrastructure | Official DeepSeek agent list |
+| 0xsline/awesome-deepseek-harness | 984 | Agent infra / Profiles | DSH ecosystem focused |
+
+### Phase 3 — Broader visibility (within 2 weeks)
+
+| Repo | Stars | Section |
+|------|-------|---------|
+| e2b-dev/awesome-ai-agents | 29,836 | Flexible and extensible runtime |
+| kyrolabs/awesome-agents | 2,794 | Agent frameworks |
+| WangRongsheng/awesome-LLM-resources | 8,905 | Agent section |
+| Hannibal046/Awesome-LLM | 27,317 | Agent subsection |
+
+**Key note:** Existing PRs #125 and #384 are for free-best-router. UEA needs **separate, new PRs** — not piggybacking. All PR descriptions mention "sibling to free-best-router" for context.
+
+---
+
+## DSH Discussion Reply Opportunities (Next Wave)
 
 Based on the DSH research report (22+ targets identified), these are the next highest-value replies to post if the current wave gains traction:
 
