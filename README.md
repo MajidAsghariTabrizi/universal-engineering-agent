@@ -8,7 +8,7 @@
 > `dsh-universal-harness-core` plugin, or alongside
 > [`free-best-router`](https://github.com/MajidAsghariTabrizi/free-best-router).
 >
-> Featured on the DSH ["Show Your Plugins!"](https://github.com/deepseek-ai/deepseek-harness/discussions/5513) board.
+> Posted to the DSH ["Show Your Plugins!"](https://github.com/deepseek-ai/deepseek-harness/discussions/5513) discussion board.
 
 ---
 
